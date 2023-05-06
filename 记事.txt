@@ -1,49 +1,6 @@
 github 
 token: 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
 
-majaro:liu liu remnantsaint 021124
-
-碧蓝档案
-国际服（已退）
-remsait777@gmail.com
-lzq021124
-15663630063
-
-日服
-remsait647@gmail.com
-lzq021124
-13136696611
-
-
-日区apple id
-邮箱：3455404798@qq.com
-密码：LZQlzq021124
-电话：18945680767
-
-
-lzq021124
-3883YPFJR8FPD9JB  星罗 圣华 老虎 光月歌
-
-VHBMVB6MV2PJYMVX 映 冰 雷
-
-PNGTPGQRYJ2SGMTH 双神 火月歌 冰星罗  （正在玩）
- 
-h5ztr2jx5zuevpke
-
-YS4PKQNPHFBBL2AK
-BCTDNTLPCARPTNCH
-5XKQ6WM3V93MPK4J 一千子 五十铃 惠
-VHBMVB6MV2PJYMVX 映 冰 雷
-
-APPLE ID
-15663630063   lzqlzq021124
-3455404798@qq.com LZQlzq021124   电话号18945680767
-
-steam
-cansheng_1 remnantsaint12
-
-OpenAI
-remsait647@gmail.com LZQlzq021124
-
-nikke 胜利女神
-remsait647@gmail.com  lzq021124
+remnantsaint/hexoImage
+main
+https://cdn.jsdelivr.net/gh/remnantsaint/hexoImage@main
