@@ -1,5 +1,5 @@
 github 
-token: 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
+token: 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
 
 remnantsaint/hexoImage
 main
