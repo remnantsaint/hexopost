@@ -11,8 +11,12 @@
             "id": "b8a800d84a5ac65a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "图的存储.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "089caa0290d9bbb5",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "图的存储.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "图的存储.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "图的存储.md"
+              }
             }
           }
         ]
@@ -138,8 +147,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "22eba8d4a2f4d9df",
+  "active": "b8a800d84a5ac65a",
   "lastOpenFiles": [
+    "图的存储.md",
     "未命名.md",
     "1.md"
   ]
