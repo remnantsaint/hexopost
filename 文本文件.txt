@@ -1,0 +1,12 @@
+优麒麟微信
+扫码登录不上，修改/etc/lsb_release
+
+DISTRIB_ID=Kylin
+DISTRIB_RELEASE=V10
+DISTRIB_CODENAME=kylin
+
+
+DISTRIB_ID=ManjaroLinux
+DISTRIB_RELEASE=22.1.1
+DISTRIB_CODENAME=Talos
+DISTRIB_DESCRIPTION="Manjaro Linux"
