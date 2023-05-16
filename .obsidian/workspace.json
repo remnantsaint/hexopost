@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DFS（图论）.md",
+                "file": "_posts/missing-semester.md",
                 "mode": "source",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DFS（图论）.md",
+                "file": "_posts/missing-semester.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DFS（图论）.md",
+                "file": "_posts/missing-semester.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DFS（图论）.md"
+                "file": "_posts/missing-semester.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "b8a800d84a5ac65a",
   "lastOpenFiles": [
+    "missing-semester.md",
+    "DFS（图论）.md",
     "图的存储.md",
     "记事.md",
     "未命名.md",
