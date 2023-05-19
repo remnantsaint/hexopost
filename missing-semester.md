@@ -3,7 +3,7 @@ title: missing-semester
 date: 2023-04-11 22:39:53
 toc: true
 tags:
-category: 课程笔记
+category: 其他
 comments:
 mathjax: 
 ---
