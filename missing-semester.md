@@ -7,6 +7,8 @@ category: 其他
 comments:
 mathjax: 
 ---
+这门课程只是对各方面进行一个基础的了解，我所记大部分抄录原文，具体学习看原网站：[missing-semester]
+
 ### Topic 1: The Shell
 #### What is the shell?
 当我们用各种各样的电脑接口时，我们经常被从根本上限制了。为了充分利用计算机提供的工具，我们不得不走老路下降到文本界面：the Shell
@@ -42,7 +44,42 @@ missing:~$ /bin/echo $PATH
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 当我们运行`echo`命令，shell会知道它要执行`echo`命令，然后在`PATH`中以`:`为分隔符分离的目录列表中搜索该名称的文件，当它找到后，它会运行命令（假设这个文件可执行）。我们能使用`which`命令找出要执行的程序在哪个目录，我们也能通过给出要执行的文件的路径来绕过`$PATH`。
+
 #### Navigating in the shell
 shell上的路径是一个带分隔符的目录列表，在Linux和macOS上用`/`分割，在Windows上用`\ `分割。在Linux中，路径`/`是文件系统的根目录，所有的目录和文件都位于该路径下
+
+用`ls`命令查看当前目录下的文件，示例：
+```shell
+missing:~$ ls -l /home
+drwxr-xr-x 1 missing  users  4096 Jun 15  2019 missing
+```
+其中第一个字符`d`表示missing是一个目录，然后接下来九个字符，每三个构成一组，分别代表了文件所有者(missing)、用户组(users)、以及其他所有人所具有的权限，其中`-`表示该用户不具备相应的权限。
+
+其中`rwx`分别是读、写、执行，可用`chmod +x <file>`来使文件可执行，或者用`chmod 777 <file>`赋予文件所有权限（三个权限的权值分别是`124`
+
+除此之外，还需要掌握`mv`（用于重命名或移动文件）、`cp`（拷贝文件）、`mkdir`（新建文件夹）
+
+#### Connecting programs
+在shell中，程序有两个主要的“流”：输入流和输出流。当程序尝试读取信息时，它们会从输入流中进行读取，当程序打印信息时，它们会将信息输出到输出流中。通常，一个程序的输入输出流都是您的终端。也就是，您的键盘作为输入，显示器作为输出，当然可以重定向这些流。
+
+最简单的重定向是`< file`和`> file`这两个命令，可以将程序的输入输出流分别重定向到文件，示例：
+```shell
+missing:~$ echo hello > hello.txt
+missing:~$ cat hello.txt
+hello
+missing:~$ cat < hello.txt
+hello
+missing:~$ cat < hello.txt > hello2.txt
+missing:~$ cat hello2.txt
+hello
+```
+还可以用`>>`来向一个文件追加内容，使用管道，我们能更好的利用文件重定向。`|`操作符允许我们将一个程序的输出和另外一个程序的输入连接起来，示例：
+```
+missing:~$ ls -l / | tail -n1
+drwxr-xr-x 1 root  root  4096 Jun 20  2019 var
+missing:~$ curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2
+219
+```
+
 
 参考：<https://missing.csail.mit.edu/2020/>
